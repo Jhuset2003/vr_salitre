@@ -9,6 +9,7 @@ import('@/style/nav.css');
       <nav id="nav_container">
         <RouterLink to="/">All VR</RouterLink> |
         <RouterLink to="/create">Create</RouterLink>
+        <RouterLink to="/VR/1">Prueba</RouterLink>
       </nav>
     </div>
   </header>
