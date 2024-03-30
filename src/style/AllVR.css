@@ -1,0 +1,24 @@
+#vr_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+}
+#vr_item{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+}
+#img_container{
+    position: relative;
+}
+
+#img_back{
+    width: 300px;
+    border-radius: 30px;
+}
+#btn_remove{
+    position: absolute;
+    width: 30px;
+    right: 0;
+}

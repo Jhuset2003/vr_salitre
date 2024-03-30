@@ -1,0 +1,24 @@
+#nav_container{    
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;    
+    font-size: 15px;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#nav_container a.router-link-exact-active {
+    color: black;
+    font-size: 16px;
+}
+#nav_container a.router-link-exact-active:hover {
+    background-color: transparent;
+}
+#nav_container a {
+    color:purple;
+    text-decoration: none;
+}
+#nav_container a:first-of-type {
+    border: 0;
+}

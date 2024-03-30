@@ -1,0 +1,24 @@
+[
+    {
+        "id":1,
+        "target":"bear.mind",
+        "back":"bear.png",
+        "asset_3d":"band-example/bear/scene.gltf",
+        "scale":0.1
+    },
+    {
+        "id":2,
+        "target":"card.mind",
+        "back":"card.png",
+        "asset_3d":"card-example/softmind/scene.gltf",
+        "scale":0.01
+    },
+    {
+        "id":3,
+        "target":"raccoon.mind",
+        "back":"raccoon.png",
+        "asset_3d":"band-example/raccoon/scene.gltf",
+        "scale":0.1
+    }
+    
+]
