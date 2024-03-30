@@ -8,8 +8,7 @@ import('@/style/nav.css');
     <div class="wrapper">
       <nav id="nav_container">
         <RouterLink to="/">All VR</RouterLink> |
-        <RouterLink to="/create">Create</RouterLink>
-        <RouterLink to="/VR/1">Prueba</RouterLink>
+        <RouterLink to="/create">Create</RouterLink>        
       </nav>
     </div>
   </header>

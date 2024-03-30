@@ -1,15 +1,16 @@
 <script setup>
 import '@/style/AllVR.css'
+import { RouterLink} from 'vue-router'
 </script>
 
 <template>
   <main>
     <div id="vr_container">
       <div v-for="(item, index) in jsonDataR" :key="index" id="vr_item">
-        <div id="img_container">
-          <img :src="`/Backs/${item.back}`" @click="abrirNuevaPestana(item.id)" id="img_back">   
+        <RouterLink id="img_container" :to="`/VR/${item.id}`">          
+          <img :src="`/Backs/${item.back}`" id="img_back">   
           <img src="../assets/icons/remove.png" @click="eliminarElemento(item.id)" id="btn_remove">
-        </div>
+        </RouterLink>
       </div>
     </div>
   </main>
